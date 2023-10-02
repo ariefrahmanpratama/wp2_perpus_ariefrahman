@@ -1,5 +1,4 @@
 
-
 body {
     background: #eee;
     color: #333;
@@ -9,12 +8,11 @@ body {
 
 #wrapper {
     background:#fff;
-    width: 1100px;
     margin: 20px auto;
 }
 
 #wrapper header{ 
-    background: #0cca71; 
+    background: #a70cca; 
     padding: 20px; 
 } 
  
@@ -49,7 +47,7 @@ body {
 } 
  
 footer{ 
-    background: #0cca71; 
+    background: #a70cca; 
     padding: 20px; 
     
 } 
