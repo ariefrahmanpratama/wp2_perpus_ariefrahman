@@ -6,7 +6,9 @@
     <title>tampil data matakuliah</title>
 </head>
 <body>
+    <center>
     <table>
+        
         <tr>
             <th colspan="3">
                 Tampil Data Matakuliah
@@ -18,14 +20,21 @@
             </td>
         </tr>
         <tr>
-            <th>KODE MTK</th>
+            <th>Kode MTK</th>
             <th>:</th>
+            <td>
+                <?= $kode; ?>
+            </td>
+        </tr>
+        <tr>
+            <th>Nama</th>
+            <td>:</td>
             <td>
                 <?= $nama; ?>
             </td>
         </tr>
         <tr>
-            <td>SKS</td>
+            <th>SKS</th>
             <td>:</td>
             <td>
                 <?= $sks; ?>

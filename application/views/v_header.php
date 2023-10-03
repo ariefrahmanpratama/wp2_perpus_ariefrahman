@@ -15,8 +15,8 @@
             </hgroup>
             <nav>
                 <ul>
-                    <li><a href="<?= base_url() ?>/web">HOME</a></li>
-                    <li><a href="<?= base_url() ?>/web/about">ABOUT</a></li>
+                    <li><a href="<?= base_url() ?>web">HOME</a></li>
+                    <li><a href="<?= base_url() ?>web/about">ABOUT</a></li>
                 </ul>
             </nav>
             <div class="clear"></div>
