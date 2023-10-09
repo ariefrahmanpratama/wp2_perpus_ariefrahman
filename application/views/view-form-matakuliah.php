@@ -24,8 +24,10 @@
                 <th>:</th>
                 <td>
                     
-                    <input type="text" name="kode" id="kode">
-                    <?= form_error('kode'); ?>
+                    <input type="text" name="kode" id="kode" autocomplete="off"> 
+                    <br>
+                    <?= form_error('kode','<small style="color:red">','</small>'); ?>
+                    
                 </td>
             </tr>
             <tr>
@@ -33,8 +35,9 @@
                 <th>:</th>
                 <td>
                     
-                    <input type="text" name="nama" id="nama">
-                    <?= form_error('nama'); ?>
+                    <input type="text" name="nama" id="nama" autocomplete="off">
+                    <br>
+                    <?= form_error('nama','<small style="color:red">','</small>'); ?>
                 </td>
             </tr>
             <tr>
