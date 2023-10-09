@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tampil data matakuliah</title>
+    <title>Tampil data matakuliah</title>
 </head>
 <body>
     <center>
