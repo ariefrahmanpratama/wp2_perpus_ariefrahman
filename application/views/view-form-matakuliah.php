@@ -50,6 +50,8 @@
                         <option value="3">3</option>
                         <option value="4">4</option>
                     </select>
+                    <br>
+                    <?= form_error('sks','<small style="color:red">','</small>'); ?>
                 </td>
             </tr>
             <tr>

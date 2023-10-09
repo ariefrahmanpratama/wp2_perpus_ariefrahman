@@ -19,6 +19,10 @@ class Matakuliah extends CI_Controller {
          'min_length' =>'Nama terlalu pendek'
         ]);
 
+        $this->form_validation->set_rules('sks','SKS','required',
+        ['required' => 'Pilih SKS selain default']);
+        
+
         if ($this->form_validation->run() !=false){
             $data = [
                 'kode' => $this->input->post('kode'),
