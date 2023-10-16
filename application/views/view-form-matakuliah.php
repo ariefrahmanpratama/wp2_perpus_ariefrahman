@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Input Matakuliah</title>
 </head>
-<body>
+<body style="background-color: #dedede;" >
     <center>
-    <form   action="<?= base_url() ?>matakuliah/cetak" method="post" >
+    <form style="background-color: #dedede;"  action="<?= base_url() ?>matakuliah/cetak" method="post" >
         <table>
             <tr>
                 <th colspan="3">

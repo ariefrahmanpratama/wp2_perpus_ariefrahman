@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tampil data matakuliah</title>
 </head>
-<body>
+<body style="background-color:skyblue;" >
     <center>
-    <table>
+    <table style="font-size:20px;">
         
         <tr>
             <th colspan="3">
